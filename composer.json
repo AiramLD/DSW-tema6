@@ -1,0 +1,24 @@
+{
+    "name": "airam/tema6",
+    "type": "project",
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Airam\\Tema6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AiramLD",
+            "email": "airamluisdiaz629@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
